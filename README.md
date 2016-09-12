@@ -8,6 +8,7 @@ Additional packages installed:
 * Subversion
 * wget
 
+## Usage
 This image is dedicate for use with [Docker Plugin] (https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin) or [Yet Another Docker Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Yet+Another+Docker+Plugin), but if needed you can run it locally:
 ```
 docker run -d matisq/jenkins-slave
