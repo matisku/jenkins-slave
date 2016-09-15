@@ -1,7 +1,7 @@
 # jenkins-slave for Jenkins Docker Plugin
 
 ## Summary
-This is a simple image based on a latest [phusion/baseimage] (https://hub.docker.com/r/phusion/baseimage).
+This is a simple image based on a latest [phusion/baseimage](https://hub.docker.com/r/phusion/baseimage).
 
 Additional packages installed:
 * Latest Java 8 JDK
