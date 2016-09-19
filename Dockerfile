@@ -11,6 +11,7 @@ LABEL description="Custom Jenkins Slave Images based on phusion/baseimage with J
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
+ENV TERM xterm
 
 # Add locales after locale-gen as needed
 # Upgrade packages on image
