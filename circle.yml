@@ -1,0 +1,15 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  pre:
+    - sudo apt-get update; sudo apt-get install sshpass
+  override:
+    - docker info
+    - docker build -t matisq/jenkins-slave .
+
+test:
+  override:
+    - docker run -d -p 222:22 matisq/jenkins-slave; sleep 10
+    - sshpass -p jenkins ssh jenkins@localhost
