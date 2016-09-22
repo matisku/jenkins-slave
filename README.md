@@ -23,6 +23,6 @@ ssh jenkins@[CONTAINER_IP]
 ```
 
 ## Metadata
-[![CircleCI](https://circleci.com/gh/matisku/jenkins-slave.svg?style=svg)](https://circleci.com/gh/matisku/jenkins-slave)  
-[![](https://images.microbadger.com/badges/image/matisq/jenkins-slave.svg)](http://microbadger.com/images/matisq/jenkins-slave "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/matisq/jenkins-slave.svg)](http://microbadger.com/images/matisq/jenkins-slave "Get your own version badge on microbadger.com")
+* [![CircleCI](https://circleci.com/gh/matisku/jenkins-slave.svg?style=svg)](https://circleci.com/gh/matisku/jenkins-slave)  
+* [matisq/jenkins-slave](https://hub.docker.com/r/matisq/jenkins-slave/) [![](https://images.microbadger.com/badges/image/matisq/jenkins-slave.svg)](http://microbadger.com/images/matisq/jenkins-slave "Get your own image badge on microbadger.com")
+
