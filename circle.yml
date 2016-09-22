@@ -11,5 +11,4 @@ dependencies:
 
 test:
   override:
-    - docker run -d -p 222:22 matisq/jenkins-slave; sleep 10
-    - sshpass -p jenkins ssh jenkins@localhost
+    - docker run -i -p 222:22 matisq/jenkins-slave java -v
