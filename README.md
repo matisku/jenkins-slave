@@ -11,15 +11,13 @@ Additional packages installed:
 ## Usage
 This image is dedicate for use with [Docker Plugin] (https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin) or [Yet Another Docker Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Yet+Another+Docker+Plugin), but if needed you can run it locally:
 ```bash
-docker run -d -p 222:22 matisq/jenkins-slave
+$ docker run -d -p 222:22 matisq/jenkins-slave
 ```
 
 and connect to it via SSH or using ```docker exe ``` command  
 ```bash
-docker exec -it [CONTAINER_ID] bash
-```  
-```bash
-ssh -p 222 jenkins@localhost
+$ docker exec -it [CONTAINER_ID] bash
+$ ssh -p 222 jenkins@localhost
 ```
 
 ## Metadata
