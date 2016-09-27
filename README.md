@@ -21,6 +21,6 @@ $ ssh -p 222 jenkins@localhost
 ```
 
 ## Metadata
-* [![CircleCI](https://circleci.com/gh/matisku/jenkins-slave.svg?style=svg)](https://circleci.com/gh/matisku/jenkins-slave)  
+* [![CircleCI](https://circleci.com/gh/matisku/jenkins-slave.svg?style=svg)](https://circleci.com/gh/matisku/jenkins-slave)  [![Build Status](https://travis-ci.org/matisku/jenkins-slave.svg?branch=master)](https://travis-ci.org/matisku/jenkins-slave)
 * [matisq/jenkins-slave](https://hub.docker.com/r/matisq/jenkins-slave/) [![](https://images.microbadger.com/badges/image/matisq/jenkins-slave.svg)](http://microbadger.com/images/matisq/jenkins-slave "Get your own image badge on microbadger.com")
 
