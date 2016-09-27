@@ -7,7 +7,7 @@ services:
 
 before_install:
   - docker build -t matisq/jenkins-slave .
-  - docker run -i -p 222:22 matisq/jenkins-slave java -version
+  - docker run -i -p 2222:22 matisq/jenkins-slave java -version
 
 script:
   - docker ps
