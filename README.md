@@ -14,7 +14,7 @@ This image is dedicate for use with [Docker Plugin] (https://wiki.jenkins-ci.org
 $ docker run -d -p 222:22 matisq/jenkins-slave
 ```
 
-and connect to it via SSH or using ```docker exe ``` command  
+and connect to it via SSH or using ```docker exe ``` command    
 ```bash
 $ docker exec -it [CONTAINER_ID] bash
 $ ssh -p 222 jenkins@localhost
