@@ -5,7 +5,13 @@ services:
 
 before_install:
   - docker build -t matisq/jenkins-slave .
-  - curl -fsSL https://goss.rocks/install | sh
+  - wget https://goss.rocks/install
+  - chmod 777 install
+  - sudo ./install
 
 script:
-  - dgoss run matisq/jenkins-slave
+  - pwd
+  - ls -lthr
+  - sudo mkdir /goss
+  - cp -rvp /home/travis/build/matisku/jenkins-slave/goss.yaml /goss
+  - #dgoss run matisq/jenkins-slave
