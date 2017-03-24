@@ -1,0 +1,18 @@
+package:
+  subversion:
+    installed: true
+  openjdk-8-jdk:
+    installed: true
+port:
+  tcp:22:
+    listening: true
+    ip:
+    - 0.0.0.0
+user:
+  jenkins:
+    # required attributes
+    exists: true
+    # optional attributes
+    groups:
+    - jenkins
+    home: /home/jenkins
