@@ -14,13 +14,13 @@ This image is dedicate for use with [Docker Plugin] (https://wiki.jenkins-ci.org
 $ docker run -d -p 222:22 matisq/jenkins-slave
 ```
 
-and connect to it via SSH or using ```docker exe ``` command  
+and connect to it via SSH or using ```docker exe ``` command    
 ```bash
 $ docker exec -it [CONTAINER_ID] bash
 $ ssh -p 222 jenkins@localhost
 ```
 
-## Metadata
+## Metadata 
 * [![CircleCI](https://circleci.com/gh/matisku/jenkins-slave.svg?style=svg)](https://circleci.com/gh/matisku/jenkins-slave)  [![Build Status](https://travis-ci.org/matisku/jenkins-slave.svg?branch=master)](https://travis-ci.org/matisku/jenkins-slave)
 * [matisq/jenkins-slave](https://hub.docker.com/r/matisq/jenkins-slave/) [![](https://images.microbadger.com/badges/image/matisq/jenkins-slave.svg)](http://microbadger.com/images/matisq/jenkins-slave "Get your own image badge on microbadger.com")
 
