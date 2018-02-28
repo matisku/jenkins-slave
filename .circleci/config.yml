@@ -4,5 +4,5 @@ jobs:
    machine: true
    steps:
      - checkout
-     - run: docker build -t matisq/jenkins-slave:$CIRCLE_BRANCH .
-     - run: docker run -i -p 222:22 matisq/jenkins-slave:$CIRCLE_BRANCH java -version
+     - run: docker build -t matisq/jenkins-slave .
+     - run: docker run -i -p 222:22 matisq/jenkins-slave java -version
